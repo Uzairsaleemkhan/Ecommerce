@@ -16,3 +16,5 @@ const dbConnect= async()=>{
         console.log(`Error on ${error}`)
     }
 }
+
+module.exports = dbConnect
