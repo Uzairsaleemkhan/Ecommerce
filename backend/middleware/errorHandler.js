@@ -27,4 +27,4 @@ return res.status(status).json(data)
 
 
 
-module.exports= errorHandler
+module.exports= errorHandler;
