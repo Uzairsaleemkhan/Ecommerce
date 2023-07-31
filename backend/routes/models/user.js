@@ -14,5 +14,5 @@ const Schema = mongoose.Schema
         timestamps:true
     })
 
-mongoose.model("User",userSchema,"users")
+module.exports= mongoose.model("User",userSchema,"users")
 
